@@ -1,0 +1,19 @@
+print("Inteiros: ")
+print(1)
+print(2 + 2)
+
+
+print("Float")
+print(1.0)
+print(2.5 + 2.5)
+
+
+print("Booleanos")
+print(True)
+print(False)
+print(bool(1))
+print(bool(0))
+
+
+
+
