@@ -16,7 +16,7 @@ Até o momento:
 - ✅ Listas
 - ✅ Tuplas
 - ✅ Dicionários
-- 🔄 Funções
+- ✅ Funções
 
 ## 💻 O que estou praticando
 
@@ -39,7 +39,6 @@ Meu objetivo é construir uma base sólida em Python e avançar gradualmente par
 
 Pretendo avançar para:
 
-- Funções e modularização
 - Manipulação de arquivos
 - Tratamento de erros
 - Programação Orientada a Objetos
