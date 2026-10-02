@@ -3,21 +3,35 @@
 arquivo = "data.csv"
 
 with open(arquivo) as open_file:
-    data = open_file.readlines()
+    lines = open_file.readlines()
 
-for linha in data:
-    print(data)
+for l in lines:
+    print(l)
 
 # %%
 
 dados = dict()
 
-chaves = data[0].strip("\n").split(";")
+chaves = lines[0].strip("\n").split(";")
 for c in chaves:
     dados[c] = []
 
-dados
 # %%
 
-nome = "Souza araujo"
-nome.split(" ")
+for l in lines[1:]:
+    
+    valores = l.strip("\n").split(";")
+    
+    for i in range(0, len(valores)):
+        
+        dados[chaves[i]].append(valores[i])
+
+
+# %%
+idades = []
+for i in dados["idade"]:
+    idades.append(int(i))
+
+media = sum(idades)/ len(idades)
+media
+# %%
